@@ -3,7 +3,7 @@ description: "Some description"
 author: "Some bloke"
 year: "2015"
 
-baseurl: "http://localhost/hub/_site"
+baseurl: "http://localhost/featherlib-web/_site"
 
 encoding: "utf-8"
 
