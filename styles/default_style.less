@@ -1,6 +1,6 @@
-@colorLightBackground      = #2F3129;
-@colorDarkBackground       = #1F201C;
-@colorHyperlink            = #9999ff;
+@colorLightBackground      = #405330;
+@colorDarkBackground       = #2C3920;
+@colorHyperlink            = #647E5A;
 @colorNormalText           = #ffffff;
 
 html {
@@ -9,14 +9,41 @@ html {
 
 body {
     background-color: @colorLightBackground;
+    font-size: 18px;
     color: @colorNormalText;
     padding: 0;
     margin: 0;
     height: 100%;
 }
 
-#content {
-    padding: 15px 0 15px 15px;
+.pageTitle {
+    font-size: 50px;
+    text-align: center;
+
+    img {
+        width: 45px;
+        height: 45px;
+        margin-top: 6px;
+    }
+
+    span {
+        vertical-align: top;
+    }
+}
+
+.upperDescription {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.screenshot {
+    margin: 25px auto 0 auto;
+    max-width: 700px;
+
+    img {
+        width: 100%;
+        max-width: 700px;
+    }
 }
 
 a {
