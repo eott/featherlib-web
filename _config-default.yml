@@ -1,0 +1,17 @@
+title: "Some title"
+description: "Some description"
+author: "Some bloke"
+year: "2015"
+
+baseurl: "http://localhost/hub/_site"
+
+encoding: "utf-8"
+
+exclude: ["styles/*.less", "compile-less.php", "build.bat", "build-default.bat", "library/*"]
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

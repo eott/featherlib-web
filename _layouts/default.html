@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="{{site.description}}">
+        <meta name="author" content="{{site.author}}">
+
+        <title>{{site.title}}</title>
+
+        <link rel="icon" type="image/png" href="{{site.baseurl}}/favicon.png"/>
+        <link href="{{site.baseurl}}/styles/default_style.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+
+        <section id="header">
+            <h1>{{page.title}}</h1>
+        </section>
+
+        <section id="content" class="{{page.title | downcase}}">
+            {{content}}
+        </section>
+
+        <section id="footer">
+        </section>
+    </body>
+</html>

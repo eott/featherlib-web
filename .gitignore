@@ -1,0 +1,14 @@
+# Generated files
+styles/*.css
+_site
+
+# Working config/build files
+_config.yml
+build.bat
+
+# Content
+_posts
+_posts
+_drafts
+assets/images
+assets/docs
